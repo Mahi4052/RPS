@@ -23,7 +23,7 @@ while player == "Yes":
             print("You win!", player, "cut", computer)
     else:
         print("That's not a valid play. Check your spelling!")
-    print("If u want to continue the game then enter:(NO) else enter:(Yes)")
+    print("If u want to continue the game then enter:(Yes) else enter:(No)")
     player=input()
     if(player=="Yes"):
         pass
@@ -31,5 +31,3 @@ while player == "Yes":
         print("You have ended the game")
         break
     computer = t[randint(0,2)]
-
-
