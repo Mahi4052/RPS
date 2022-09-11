@@ -3,5 +3,5 @@
 
 *Random package is being used here and from that randint is imported in a program.
 
-*Simple and entertaining project.
+*Simple but entertaining project.
 
