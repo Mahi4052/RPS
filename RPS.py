@@ -28,6 +28,7 @@ while player == "Yes":
     if(player=="Yes"):
         pass
     else:
-        print("You have ended the game")
-        break
+        if player=="No":
+            print("You have ended the game")
+            break
     computer = t[randint(0,2)]
